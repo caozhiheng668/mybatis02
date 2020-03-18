@@ -19,6 +19,7 @@ public class User implements Serializable {
     StringBuffer sb = new StringBuffer();
     //一对多关系映射：主表方法应该包含一个从表方的集合引用
     private List<Account> accounts;
+    private String hha;
 
     public List<Account> getAccounts() {
         return accounts;
