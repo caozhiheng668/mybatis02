@@ -8,6 +8,7 @@ public class Account implements Serializable {
     private Double money;
     //多对一关系映射：从表方应该包含一个主表方的对象引用
     private User user;
+    private String haha;
 
     public Integer getId() {
         return id;
